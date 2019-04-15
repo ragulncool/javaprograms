@@ -28,6 +28,8 @@ public class SerializationDemo {
 
 }
 
+//Object of class to be serialized must implement the Marker interface -> Serializable
+
 class Save implements Serializable{
 	int i;
 }
